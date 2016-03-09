@@ -5,13 +5,6 @@ body {
 .pointer {
   cursor: pointer;
 }
-.image.not.recommend {
-  background-color: #FFFFFF;
-  padding: 10px;
-}
-.image.not.recommend img {
-  opacity: 0.5;
-}
 .ui.fixed.top.menu {
   background-color: #07BEB8;
 }
@@ -20,6 +13,28 @@ body {
 }
 .ui.fixed.top.menu .ui.popup .item {
   color: #000000;
+}
+.ui.fixed.top.menu #toggle {
+  display: none;
+}
+@media (max-width: 768px) {
+  .ui.fixed.top.menu .menu.right {
+    display: none;
+  }
+  .ui.fixed.top.menu #toggle {
+    display: block;
+  }
+}
+.ui.sidebar.vertical.menu {
+  padding-top: 70px;
+}
+.ui.sidebar.vertical.menu .item,
+.ui.sidebar.vertical.menu .title {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+.ui.sidebar.vertical.menu .title {
+  padding: 0px 0px;
 }
 .ui.white.header {
   color: #FFFFFF;

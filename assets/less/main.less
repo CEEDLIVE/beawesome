@@ -3,13 +3,6 @@ body {
 	background-color: #C4FFF9;
 }
 .pointer {cursor: pointer;}
-.image.not.recommend {
-	background-color: #FFFFFF;
-	padding: 10px;
-	img {
-		opacity: 0.5;
-	}
-}
 .ui {
 	&.fixed.top.menu {
 		background-color: #07BEB8;
@@ -20,6 +13,27 @@ body {
 			.item {
 				color: #000000;
 			}
+		}
+		#toggle {
+			display: none;
+		}
+		@media (max-width: 768px) {
+			.menu.right {
+				display: none;
+			}
+			#toggle {
+				display: block;
+			}
+		}
+	}
+	&.sidebar.vertical.menu {
+		padding-top: 70px;
+		.item, .title {
+			color: #FFFFFF;
+			font-size: 14px;
+		}
+		.title {
+			padding: 0px 0px;
 		}
 	}
 	&.white.header {

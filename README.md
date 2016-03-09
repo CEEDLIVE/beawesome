@@ -1,5 +1,10 @@
-# beawesome
-Single page template with semantic-ui and jquery
+# Beawesome
+Simple single page template with semantic-ui and jquery (Responsive and Colorful)
 
-# Firstly,
-Please use npm install to build jquery
+## How to use?
+
+1. Use ``` npm install ``` to build jquery
+2. Enjoy and customize this template
+
+## License
+Nothing but you can customize and contribute this project

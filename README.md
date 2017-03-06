@@ -7,7 +7,7 @@ Simple single page template with semantic-ui and jquery (Responsive and Colorful
 2. Enjoy and customize this template
 
 ## Demo
-You can see demo here http://demo.feelinart.com/
+You can see demo here http://muhibbudins.github.io/beawesome/
 
 ## License
 Nothing but you can customize and contribute this project
